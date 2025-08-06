@@ -12,8 +12,12 @@ export function Header() {
         <div className="flex items-center justify-between py-2 text-sm text-muted-foreground border-b">
           <p>Free shipping on orders over $50</p>
           <div className="flex items-center gap-4">
-            <Link to="/support" className="hover:text-foreground">Support</Link>
-            <Link to="/track" className="hover:text-foreground">Track Order</Link>
+            <Link to="/support" className="hover:text-foreground">
+              Support
+            </Link>
+            <Link to="/track" className="hover:text-foreground">
+              Track Order
+            </Link>
           </div>
         </div>
 
@@ -57,22 +61,40 @@ export function Header() {
 
         {/* Navigation */}
         <nav className="hidden md:flex items-center gap-8 py-4 border-t">
-          <Link to="/products" className="text-sm font-medium hover:text-primary">
+          <Link
+            to="/products"
+            className="text-sm font-medium hover:text-primary"
+          >
             All Products
           </Link>
-          <Link to="/categories/clothing" className="text-sm font-medium hover:text-primary">
+          <Link
+            to="/categories/clothing"
+            className="text-sm font-medium hover:text-primary"
+          >
             Clothing
           </Link>
-          <Link to="/categories/accessories" className="text-sm font-medium hover:text-primary">
+          <Link
+            to="/categories/accessories"
+            className="text-sm font-medium hover:text-primary"
+          >
             Accessories
           </Link>
-          <Link to="/categories/shoes" className="text-sm font-medium hover:text-primary">
+          <Link
+            to="/categories/shoes"
+            className="text-sm font-medium hover:text-primary"
+          >
             Shoes
           </Link>
-          <Link to="/categories/bags" className="text-sm font-medium hover:text-primary">
+          <Link
+            to="/categories/bags"
+            className="text-sm font-medium hover:text-primary"
+          >
             Bags
           </Link>
-          <Link to="/sale" className="text-sm font-medium text-sale hover:text-sale/80">
+          <Link
+            to="/sale"
+            className="text-sm font-medium text-sale hover:text-sale/80"
+          >
             Sale
           </Link>
         </nav>
