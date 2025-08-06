@@ -203,14 +203,6 @@ export default function Index() {
                     <span className="text-sm font-medium">{product.rating}</span>
                     <span className="text-sm text-muted-foreground">({product.reviews})</span>
                   </div>
-                  <div className="flex items-center gap-2">
-                    <span className="text-xl font-bold text-price">${product.price}</span>
-                    {product.originalPrice && (
-                      <span className="text-sm text-muted-foreground line-through">
-                        ${product.originalPrice}
-                      </span>
-                    )}
-                  </div>
                 </CardContent>
               </Card>
             ))}
